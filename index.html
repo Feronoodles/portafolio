@@ -8,43 +8,56 @@
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
+    
     <title>Portafolio Web</title>
 </head>
 <body>
+    <script src="index.js"></script>
+    <header>
+        <div class="contenido-header">
+            <h1>/FUR/</h1>
+            <nav id="nav" class="">
+                <ul id="links">
+                    <li><a href="#inicio" class="seleccionado">Inicio</a></li>
+                    <li><a href="#proyecto">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+             <!-- iconos del menu-->
+            <div id="icono-nav">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- iconos de las redes sociales-->
+            <div class="redes">
+                <a href="#github"><i class="fa-brands fa-github"></i></a>
+                <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </header>
     <!-- seleccion inicio-->
-<section id="inicio">
-    <div class="contenido">
-        
-        <header>
-            <div class="contenido-header">
-                <h1>/LP/</h1>
-                <nav id="nav" class="">
-                    <ul id="links">
-                        <li><a href="#inicio" class="seleccionado">Inicio</a></li>
-                        <li><a href="#sobremi">Sobre mi</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="#portafolio">Portafolio</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </nav>
-                 <!-- iconos del menu-->
-                <div id="icono-nav">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-                <!-- iconos de las redes sociales-->
-                <div class="redes">
-                    <a href="#github"><i class="fa-brands fa-github"></i></a>
-                    <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+
+    <main>
+        <section id="inicio">
+            <div class="contenido">
+                
+               
+                <div class="presentacion">
+                    <h1 class="titulos">Bienvenidos</h1>
+                    <h2>Soy <span>Fernando Urlich</span>, desarrollador BACKEND</h2>
+                    <p class="descripcion">agregar descripcion</p>
+                    <a href="#portafolio">Ir a Portafolio</a>
                 </div>
             </div>
-        </header>
-        <div class="presentacion">
-            <p class="bienvenida">Bienvenidos</p>
-            <h2>Soy <span>Fernando Urlich</span>, desarrollador BACKEND</h2>
-            <p class="descripcion">agregar descripcion</p>
-            <a href="#portafolio">Ir a Portafolio</a>
-        </div>
-    </div>
-</section>
+        </section>
+        <section id="proyectos">
+            <div class="contenido">
+                <div class="muestras">
+                    <h1 class="titulos">Proyectos</h1>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
