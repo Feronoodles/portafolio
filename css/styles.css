@@ -21,13 +21,13 @@ body{
     width: 100%;
     z-index: 100;
     top: 0;
-    transition: top 0.3s;   
+    transition: top 0.4s;   
     
 }
 
 .header-hidden{
     
-    top: - 100px;
+    top: -1100px;
 
 }
 .header .contenido-header{
