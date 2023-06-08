@@ -8,3 +8,15 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+function scrollToSectioninButton(section) {
+  const destino = document.getElementById(section);
+  const contenedor = destino.closest("main");
+  destino.scrollIntoView({ behavior: "smooth" });
+}
+function scrollToSection(event) {
+  event.preventDefault();
+  
+  const destino = document.querySelector(event.target.getAttribute('href'));
+  destino.scrollIntoView({ behavior: "smooth" });
+} 
