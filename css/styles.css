@@ -121,7 +121,7 @@ main #proyectos .contenido .muestras{
     justify-content: center;
 }
 
-main #contacto .contenido .formulario{
+main #contacto .contenido {
     max-width: 1100px;
     height: 100vh;
     margin: auto;
@@ -131,7 +131,62 @@ main #contacto .contenido .formulario{
     align-items: center;
     justify-content: center;
 }
+main #contacto .contenido .formulario{
+    position: relative;
+    width: 400px;
+    height: 360px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #15171d;
+}
 
+main #contacto .contenido .formulario::before,
+.formulario_circuito{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    display: block;
+    width: 682px;
+    height: 514px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+main #contacto .contenido .formulario::before{
+    background: url(../img/bg-circuito.svg);
+}
+main #contacto .contenido .formulario .formulario_circuito{
+    display: grid;
+    place-items: center;
+    -webkit-mask: url(../img/bg-circuito.svg);
+    mask: url(../img/bg-circuito.svg);
+}
+
+main #contacto .contenido .formulario .formulario_circuito::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #00f0ff;
+    animation: electricidad 4s infinite;
+    
+}
+main #contacto .contenido .formulario .titulos{
+    text-align: center;
+}
+
+@keyframes electricidad {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(8);
+    }
+    
+}
 h1 .titulos{
     font-size: 16px;
     margin-bottom: 20px;
