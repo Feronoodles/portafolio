@@ -121,6 +121,17 @@ main #proyectos .contenido .muestras{
     justify-content: center;
 }
 
+main #contacto .contenido .formulario{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 h1 .titulos{
     font-size: 16px;
     margin-bottom: 20px;
