@@ -15,7 +15,7 @@ Portafolio web personal desarrollado con HTML, CSS y JavaScript vanilla. Diseña
 ## ✨ Características
 
 - **Diseño Oscuro Premium** — Fondo con gradientes animados, patrón de puntos y overlay radial en tonos verde/azul oscuro.
-- **Partículas Flotantes** — 30 partículas generadas dinámicamente con posición, tamaño y velocidad aleatorias.
+- **Partículas Flotantes** — Partículas generadas dinámicamente con posición, tamaño y velocidad aleatorias.
 - **Navbar Inteligente** — Se oculta al hacer scroll hacia abajo y reaparece al subir. Incluye resaltado automático de la sección activa.
 - **Menú Responsive** — Menú hamburguesa con animación de deslizamiento para dispositivos móviles.
 - **Cards de Proyectos** — Grid responsivo con efecto hover (zoom de imagen + overlay), tags de tecnologías y botones de acción.
