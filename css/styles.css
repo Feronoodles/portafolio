@@ -289,10 +289,19 @@ main #inicio .contenido .presentacion .descripcion {
     text-align: center;
 }
 
-main #inicio .contenido .presentacion a {
+.presentacion-acciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.presentacion-acciones a {
     text-decoration: none;
-    display: inline-block;
-    margin: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px 25px;
     border: 2px solid #fff;
     border-radius: 50px;
@@ -303,8 +312,18 @@ main #inicio .contenido .presentacion a {
     background-color: #37c42a;
 }
 
-main #inicio .contenido .presentacion a:hover {
+.presentacion-acciones a:hover {
     background-color: #2a9620;
+}
+
+.presentacion-acciones .btn-secundario {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.presentacion-acciones .btn-secundario:hover {
+    background: rgba(55, 196, 42, 0.18);
+    border-color: #37c42a;
 }
 
 main #proyectos {
@@ -354,6 +373,22 @@ main #proyectos .contenido .muestras .titulos {
     width: 100%;
     height: 220px;
     overflow: hidden;
+}
+
+.proyecto-imagen-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(55, 196, 42, 0.22), rgba(10, 14, 39, 0.95));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.placeholder-label {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .proyecto-imagen img {
@@ -481,6 +516,17 @@ main #proyectos .contenido .muestras .titulos {
 @media (max-width: 768px) {
     .proyectos-grid {
         grid-template-columns: 1fr;
+    }
+
+    .presentacion-acciones {
+        flex-direction: column;
+        width: min(100%, 320px);
+        margin: 10px auto 0;
+    }
+
+    .presentacion-acciones a {
+        width: 100%;
+        padding: 16px 20px;
     }
 
     main #proyectos .contenido .muestras .titulos {

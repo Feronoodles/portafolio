@@ -12,7 +12,7 @@
 
     <title>Portafolio Web</title>
 </head>
-
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f05dbd20494a4a48961c95318b984c96"}'></script><!-- End Cloudflare Web Analytics -->
 <body>
     <!-- Patrón de fondo decorativo -->
     <div class="dot-pattern"></div>
@@ -33,7 +33,7 @@
             </div>
             <!-- iconos de las redes sociales-->
             <div class="redes">
-                <a href="https://github.com/Burbujitas  "><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/Feronoodles  "><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/fernando-urlich-11ba67207/"><i
                         class="fa-brands fa-linkedin"></i></a>
             </div>
@@ -52,7 +52,11 @@
                     <p class="descripcion">Desarrollador Backend con Java Spring Boot,
                         busco trabajar en equipo colaborando con mis compañeros, dando mi máximo esfuerzo para
                         lograr superar nuevos desafíos con las mejores soluciones.</p>
-                    <a href="#proyectos" onclick="scrollToSection(event)">Ir a Portafolio</a>
+                    <div class="presentacion-acciones">
+                        <a href="#proyectos" onclick="scrollToSection(event)">Ir a Proyectos</a>
+                        <a href="assets/Fernando-Urlich-CV.pdf" target="_blank" rel="noopener noreferrer"
+                            class="btn-secundario">Ver CV</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -64,14 +68,16 @@
                         <!-- Proyecto 1 - Ejemplo -->
                         <div class="proyecto-card">
                             <div class="proyecto-imagen">
-                                <img src="img/okr-img.png" alt="Proyecto 1">
+                                <img src="img/okr-img-2.png" alt="Proyecto 1">
                                 <div class="proyecto-overlay">
                                     <span class="ver-mas">Ver más</span>
                                 </div>
                             </div>
                             <div class="proyecto-info">
                                 <h3>OKR Strat-Master</h3>
-                                <p class="proyecto-descripcion">Sistema de gestión de OKRs con Spring Boot y MySQL.</p>
+                                <p class="proyecto-descripcion">Sistema de presentación de OKR que reemplazó 
+                                                                un proceso manual basado en el envío de archivos de Excel a cada persona que 
+                                                                debía presentar la información.</p>
                                 <div class="proyecto-tecnologias">
                                     <span class="tech-tag">Java</span>
                                     <span class="tech-tag">Spring Boot</span>
@@ -121,7 +127,41 @@
                             </div>
                         </div>
 
-                        <!-- Proyecto 3 - Ejemplo -->
+                        <!-- Proyecto 3 - Nuevo proyecto -->
+                        <div class="proyecto-card">
+                            <div class="proyecto-imagen proyecto-imagen-placeholder">
+                                <img src="img/edificio-img.png" alt="Proyecto 2">
+                                <div class="proyecto-overlay">
+                                    <span class="ver-mas">Imagen pendiente</span>
+                                </div>
+                                
+                            </div>
+                            <div class="proyecto-info">
+                                <h3>Dashboard de Administracion de edificios</h3>
+                                <p class="proyecto-descripcion">Un dashboard para la administracion de edificios,
+                                    departamentos, residentes y pagos, centralizando la gestion operativa en un solo
+                                    sistema.</p>
+                                <div class="proyecto-tecnologias">
+                                    <span class="tech-tag">Java</span>
+                                    <span class="tech-tag">Spring Boot</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Docker</span>
+                                </div>
+                                <div class="proyecto-botones">
+                                    <a href="https://github.com/Feronoodles/edificio-backend" target="_blank"
+                                        class="btn-proyecto btn-github">
+                                        <i class="fa-brands fa-github"></i> Codigo
+                                    </a>
+                                    <a href="https://edi-admin.master-api.uk/" target="_blank"
+                                        class="btn-proyecto btn-demo">
+                                        <i class="fa-solid fa-globe"></i> Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Proyecto 4 - Ejemplo -->
                         <div class="proyecto-card">
                             <div class="proyecto-imagen">
                                 <img src="img/portafolio-img.png" alt="Proyecto 3">
@@ -147,6 +187,7 @@
                             </div>
                         </div>
                     </div>
+                   
                 </div>
             </div>
         </section>
