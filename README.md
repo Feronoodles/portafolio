@@ -1,7 +1,7 @@
 # 🌐 Portafolio Web — Fernando Urlich
 
 [![GitHub](https://img.shields.io/badge/GitHub-Feronoodles-181717?style=for-the-badge&logo=github)](https://github.com/Feronoodles)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fernando%20Urlich-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/fernando-urlich-11ba67207/)](https://www.linkedin.com/in/fernando-urlich-5914783b0/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fernando%20Urlich-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/fernando-urlich-5914783b0/)
 
 Portafolio web personal desarrollado con HTML, CSS y JavaScript vanilla. Diseñado con una estética moderna de tema oscuro con acentos en verde neón, efectos de glassmorphism, partículas animadas y gradientes dinámicos.
 
